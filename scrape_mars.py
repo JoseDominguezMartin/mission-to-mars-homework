@@ -13,7 +13,7 @@ def init_browser():
     #return Browser('chrome', **executable_path, headless=False)
 
     #Windows Users
-    # executable_path = {'executable_path': '/Users/cantu/Desktop/Mission-to-Mars'}
+    # executable_path = {'executable_path': '/Users/josec/Desktop/Mission-to-Mars'}
     # return Browser('chrome', **executable_path, headless=False)
     exec_path = {'executable_path': '/app/.chromedriver/bin/chromedriver'}
     return Browser('chrome', headless=True, **exec_path)
